@@ -1,0 +1,50 @@
+    @import "custom";
+    .card-login {
+        width: 24rem;
+        padding: 10px, 10px;
+    }
+
+    .title-card {
+        color: $greenDark;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 40px;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+
+    }
+
+    .subtitle-card {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+        display: flex;
+        align-items: center;
+        color: $gray-10;
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+    }
+
+    .label-card {
+        color: $green;
+        right: 100px;
+    }
+
+    .label-footer-card {
+        font-size: 12px;
+        color: $black;
+    }
+
+    .label-green-card {
+        color: $green;
+    }
+    .div-img-login {
+        padding-right: 200px;
+    }
+    .img-login {
+        width: 34rem;
+        padding: 10px, 100px;
+    }
+    

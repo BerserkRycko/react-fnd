@@ -1,0 +1,38 @@
+    .div-container {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 4px;
+        position: absolute;
+        width: 171px;
+        height: 32px;
+        left: 85%;
+        top: 20px;
+    }
+    .defaultImg {
+        width: 25%
+    }
+    .row-img-text-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 2px;
+        position: absolute;
+        left: 60px;
+        top: -5px;
+    }
+    .div-title-user {
+        position: absolute;
+        top: 25px
+    }
+    .title-user {
+        width: 135px;
+        height: 12px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 12px
+    }

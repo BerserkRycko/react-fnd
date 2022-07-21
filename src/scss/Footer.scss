@@ -1,0 +1,89 @@
+    @import "custom";
+    .div-logo {
+        width: 25%;
+    }
+
+    .div-hr {
+        color:$green;
+    }
+
+    .label-list {
+        width: 219px;
+        height: 34px;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        color: $black;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .label-contact {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        color: $green-10;
+    }
+
+    .div-social-img {
+        padding-top: 10px;
+    }
+
+    .img-social {
+        width: 50px;
+        padding-left: 10px;
+    }
+
+    .pay-contact-img {
+        width: 100%;
+    }
+
+    .ofert-label {
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 16px;
+        display: flex;
+        align-items: center;
+        color: $black;
+    }
+
+    .label-ingresa {
+        color: $green-10;
+        padding-left: 300px;
+    }
+
+    .div-footer-copyright {
+        background: $footerGreen;
+    }
+
+    .label-copyright {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 54px;
+        display: flex;
+        align-items: center;
+        padding-left: 80px;
+        color: $greenDark;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        text-decoration: none;
+    }
+
+    .label-term {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 54px;
+        display: flex;
+        align-items: center;
+        padding-right: 70px;
+        color: $greenDark;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }

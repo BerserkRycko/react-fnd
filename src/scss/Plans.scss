@@ -1,0 +1,312 @@
+@import "custom";
+
+/* Planes */
+
+/* Auto layout */
+.plans{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	gap: 48px;
+	margin:  0 auto;
+	width: 1080px;
+	height: 420px;
+	left: 180px;
+	top: 1939px;
+}
+
+button.button-plan:hover{
+	background: $greenDark;
+	color: $white;
+}
+.container-plans{
+	display: flex;
+	flex-direction: row;
+	margin: 0 auto;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+/* Plan1 */
+.plan{
+	box-sizing: border-box;
+
+	/* Auto layout */
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 20px;
+	gap: 10px;
+    
+	width: 328px;
+	height: 480px;
+
+	background: $white;
+	/* Stroke */
+	border: 1px solid $gray-10;
+	border-radius: 10px;
+
+	/* Inside auto layout */
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
+.wrap-description{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-left: 10px;
+	width: 88px;
+	height: 100px;
+}
+.recommended{
+	position: relative;
+	width: 150%;
+	
+	font-family: sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	padding: 0;
+	align-items: center;
+	text-align: center;
+	margin: 0;
+	color: $white;
+	background: $greenDark;
+
+	border-radius: 25px;
+}
+
+/* Contenido */
+.contents{
+	/* Auto layout */
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 20px;
+
+	width: 288px;
+	height: 357px;
+
+
+	/* Inside auto layout */
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+
+}
+/* Encabezado */
+.header-plans{
+	width: 288px;
+	height: 109px;
+
+
+	/* Inside auto layout */
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+
+}
+/* Group 162831 */
+.header-wrap{
+	width: 288px;
+	height: 109px;
+	left: 0px;
+	top: 0px;
+}
+
+
+/* Rectangle 9604 */
+.rectangle-header{
+	width: 288px;
+	height: 1px;
+	left: 0px;
+	top: 108px;
+
+	/* Stroke */
+	background: $gray-10;
+}
+
+/* Group 162830 */
+.header-plan{
+	width: 288px;
+	height: 88px;
+}
+
+
+/* Rectangle 2673 */
+.image-header-plan{
+	width: 88px;
+	height: 88px;
+	left: 0px;
+	top: 0px;
+	float: left;
+	border-radius: 10px;
+}
+.image-header-plan img{
+	width: 100%;
+}
+/* Group 162829 */
+.group-image-text{
+	width: 186px;
+	
+	position: relative;
+}
+
+.title-plan{
+	position: relative;
+	width: 186px;
+	font-family: 'Arial';
+	font-style: normal;
+	text-align: left;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 24px;
+	margin: 0;
+	color: $greenDark;
+}
+
+/* $100 MXN C/U */
+.price-plan{
+	position: relative;
+	width: 186px;
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	/* identical to box height, or 150% */
+	display: flex;
+	align-items: center;
+	margin: 0;
+	bottom: 0;
+	/* Verde Oscuro */
+	color: $greenDark;
+}
+
+
+/* Cuerpo de texto */
+.body-text{
+	/* Auto layout */
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 16px;
+	flex: none;
+	flex-grow: 0;
+	width: 265.85px;
+	height: 200px;
+}
+
+/* Pedido mínimo de 2 platillos. */
+.text-plan{
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	/* Text/Primary */
+	color: $black;
+
+	opacity: 0.9;
+}
+
+
+.body-text ul{
+	list-style: url('../assets/plans/checkmark-check.png') outside;
+}
+.body-text ul li{
+	padding: 5px 0px 5px 15px;
+	vertical-align: center;
+
+}
+/* Button */
+button.button-plan{
+	/* Auto layout */
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 8px 12px;
+	gap: 8px;
+	width: 288px;
+	height: 36px;
+	background: $gray;
+	border-radius: 10px 0px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 20px;
+	/* identical to box height, or 143% */
+	text-align: center;
+	/* Verde Oscuro */
+	color: $greenDark;
+	cursor: pointer;
+	border: none;
+}
+
+
+/* Button */
+.link-plan{
+	box-sizing: border-box;
+	/* Auto layout */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 4px 16px;
+	gap: 8px;
+	width: 288px;
+	height: 26px;
+	border-radius: 4px;
+	/* Inside auto layout */
+	flex: none;
+	order: 2;
+	align-self: stretch;
+	flex-grow: 0;
+}
+
+/* Iniciar Sesión */
+.link-text{
+height: 18px;
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+text-decoration-line: underline;
+/* Verde Oscuro */
+color: $greenDark;
+/* Inside auto layout */
+cursor: pointer;
+}
+
+.footer-plans{
+	height: 100px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+.section-plans{
+	text-align: center;
+}
+
+.section-plans h2{
+	color: $greenDark;
+	font-size: 36;
+	font-weight: bold;
+	padding: 20px 0;
+}
+.section-plans .subtitle-plan{
+	color: $black;
+	font-size: 20px;
+	font-weight: 100;
+}
